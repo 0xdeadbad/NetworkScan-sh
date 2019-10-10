@@ -5,4 +5,4 @@ Esse script basicamente abre várias processos de "ping" para o range de IPs e r
 
 Uso básico:
 
-./NScan <ip inicial> <quantidade de ips> <quantidade de pings>
+./NScan \<ip inicial\> \<quantidade de ips\> \<quantidade de pings\>
