@@ -28,7 +28,7 @@ IP=$1
 QT=$2
 W=$3
 
-for i in {0..$QT}; do 
+for i in $(seq 0 $QT); do 
 	ping -4 -w $W $IP > /dev/null &
 	PIDS["$!"]=$IP
 	ip_next $IP
